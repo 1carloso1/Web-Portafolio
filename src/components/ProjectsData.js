@@ -1,6 +1,6 @@
 import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg2 from "../assets/img/EMOCVision.png";
+import projImg3 from "../assets/img/Hacking.png";
 import videoPrueba from "../assets/vids/hacking.gif";
 
 import python from 'programming-languages-logos/src/python/python.svg'
@@ -21,37 +21,54 @@ import git from "../assets/img/nav-icon4.svg";
 import latex from "../assets/img/latex-svgrepo-com.svg";
 import react from "../assets/img/React_Logo_SVG.svg";
 import colorSharp from "../assets/img/thunderblur.png"
+import numpy from "../assets/img/Numpy-svgrepo-com.svg";
 
 export const projects = [
     {
-      title: "Proyecto 1",
-      description: "Descripcion 1",
+      title: "Psicosfera",
+      description: "Psicosfera es una plataforma web que conecta psicólogos y pacientes, facilitando la gestión de citas, consultas y comunicación. Desarrollada con Django en el backend, JavaScript y AJAX en el frontend, y Docker para la base de datos.",
       imgUrl: projImg1,
-      moreInfo: "detalles del proyecto 1",
+      moreInfo: "La plataforma permite a los pacientes buscar y conectarse con psicólogos de acuerdo a su especialidad, ubicación y disponibilidad. Los psicólogos pueden gestionar sus citas, horarios, y mantener un registro de las sesiones de sus pacientes. Además, los usuarios (pacientes y psicólogos) pueden interactuar a través de un sistema de mensajería y tener un perfil público y privado para gestionar su información.",
       videoUrl: videoPrueba,
       technologies: [
         { name: "Python", logoUrl: python },
         { name: "Django", logoUrl: django },
         { name: "JavaScript", logoUrl: js },
-        { name: "Docker", logoUrl: docker }
+        { name: "Docker", logoUrl: docker },
+        { name: "HTML", logoUrl: html },
+        { name: "Bootstrap", logoUrl: bs },
+
       ]
     },
     {
-      title: "Proyecto 2",
-      description: "Descripcion 2",
+      title: "EMOCVision",
+      description: "A computer vision system for calculating the Elastic Modulus of concrete cylinders through video analysis.",
       imgUrl: projImg2,
-      moreInfo: "detalles del proyecto 2"
+      moreInfo: "This project aims to develop a system based on computer vision and deep learning techniques to calculate the elastic modulus of concrete cylinders subjected to controlled loading conditions. The system automates the analysis of compression tests, reducing the reliance on expensive specialized equipment and minimizing errors associated with manual calculations.",
+      technologies: [
+        { name: "Python", logoUrl: python },
+        { name: "OpenCV", logoUrl: opencv },
+        { name: "Numpy", logoUrl: numpy },
+      ]
     },
     {
-      title: "Proyecto 3",
-      description: "Descripcion 3",
+      title: "Hacking Challenges",
+      description: "This project contains detailed solutions and procedures for the Bandit and PicoCTF challenges.",
       imgUrl: projImg3,
-      moreInfo: "detalles del proyecto 3"
+      moreInfo: "This project contains detailed solutions and procedures for the Bandit and PicoCTF challenges, designed to help you improve your skills in cybersecurity, pentesting, and information security in general.",
+      technologies: [
+        { name: "Python", logoUrl: python },
+        { name: "Linux", logoUrl: linux },
+      ]
     },
     {
-      title: "Proyecto 4",
+      title: "Facial Recognition System",
       description: "Descripcion 4",
-      imgUrl: projImg2,
-      moreInfo: "detalles del proyecto 4"
+      imgUrl: projImg1,
+      moreInfo: "detalles del proyecto 4",
+      technologies: [
+        { name: "Python", logoUrl: python },
+        { name: "OpenCV", logoUrl: opencv },
+      ]
     },
   ];
