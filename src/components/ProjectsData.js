@@ -1,7 +1,8 @@
-import projImg1 from "../assets/img/project-img1.png";
+import projImg1 from "../assets/img/psicosferapag.png";
 import projImg2 from "../assets/img/EMOCVision.png";
 import projImg3 from "../assets/img/Hacking.png";
-import videoPrueba from "../assets/vids/hacking.gif";
+import hackinggif from "../assets/gifs/hacking.gif";
+import psicosferagif from "../assets/gifs/psicosfera.gif";
 
 import python from 'programming-languages-logos/src/python/python.svg'
 import js from 'programming-languages-logos/src/javascript/javascript.svg'
@@ -29,7 +30,7 @@ export const projects = [
       description: "Psicosfera es una plataforma web que conecta psicólogos y pacientes, facilitando la gestión de citas, consultas y comunicación. Desarrollada con Django en el backend, JavaScript y AJAX en el frontend, y Docker para la base de datos.",
       imgUrl: projImg1,
       moreInfo: "La plataforma permite a los pacientes buscar y conectarse con psicólogos de acuerdo a su especialidad, ubicación y disponibilidad. Los psicólogos pueden gestionar sus citas, horarios, y mantener un registro de las sesiones de sus pacientes. Además, los usuarios (pacientes y psicólogos) pueden interactuar a través de un sistema de mensajería y tener un perfil público y privado para gestionar su información.",
-      videoUrl: videoPrueba,
+      videoUrl: psicosferagif,
       technologies: [
         { name: "Python", logoUrl: python },
         { name: "Django", logoUrl: django },
@@ -56,6 +57,7 @@ export const projects = [
       description: "This project contains detailed solutions and procedures for the Bandit and PicoCTF challenges.",
       imgUrl: projImg3,
       moreInfo: "This project contains detailed solutions and procedures for the Bandit and PicoCTF challenges, designed to help you improve your skills in cybersecurity, pentesting, and information security in general.",
+      videoUrl: hackinggif,
       technologies: [
         { name: "Python", logoUrl: python },
         { name: "Linux", logoUrl: linux },
