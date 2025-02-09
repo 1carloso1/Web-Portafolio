@@ -3,10 +3,12 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import logo from '../assets/logos/logoNEW2.png'
-import navIcon1 from '../assets/img/nav-icon1.svg'
-import navIcon3 from '../assets/img/nav-icon3.svg'
-import navIcon4 from '../assets/img/nav-icon4.svg'
-
+import linkdnIcon from '../assets/img/nav-icon1.svg'
+import instagramIcon from '../assets/img/nav-icon3.svg'
+import gitIcon from '../assets/img/nav-icon4.svg'
+const gitLink = "https://github.com/1carloso1"
+const instaLink = "https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F_carloso_%3Figsh%3DMTk4OW94N205bTh5cg%253D%253D%26fbclid%3DIwZXh0bgNhZW0CMTAAAR34K9URCO5-mr4NJkwvyDVOaza2nGeo6JkmmEqiRBahVBnpjgjmlKBSKO0_aem_COrAEZAR9_Z5JvMaFgCugg&h=AT2946MaA24JXXgM4efQC-9kaDu95SgCwm1Mz-tJlcgxhnrBDFFSBD0kGOzQRary5KO4_wZBD6XQn1325XT6KptSwxeUn35n1vrxD3qQUhXOqYigDKNvxVPf9x5yLQqnYAJNpQ"
+const linkdnLink = "https://www.linkedin.com/in/carlos-eduardo-olvera-851843337/"
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState('home');
   const [scrolled, setScrolled] = useState(false)
@@ -46,9 +48,9 @@ export const NavBar = () => {
           </Nav>
           <span className='navbar-text'>
             <div className='social-icon'>
-              <a href="#"><img src={navIcon3} alt="" /></a>
-              <a href="#"><img src={navIcon1} alt="" /></a>
-              <a href="#"><img src={navIcon4} alt="" /></a>
+              <a href={instaLink}><img src={instagramIcon} alt="" /></a>
+              <a href={linkdnLink}><img src={linkdnIcon} alt="" /></a>
+              <a href={gitLink}><img src={gitIcon} alt="" /></a>
             </div>
             <button className='vvd' onClick={() => console.log('connect')}><span>Let's Connect</span></button>
           </span>
