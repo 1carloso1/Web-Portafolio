@@ -1,8 +1,11 @@
 import projImg1 from "../assets/img/psicosferapag.png";
 import projImg2 from "../assets/img/EMOCVision.png";
 import projImg3 from "../assets/img/Hacking.png";
+import projImg4 from "../assets/img/facial_recognition.png";
 import hackinggif from "../assets/gifs/hacking.gif";
 import psicosferagif from "../assets/gifs/psicosfera.gif";
+import facial_recognitiongif from "../assets/gifs/facila_recognition.gif";
+import emocvisiongif from "../assets/gifs/emocvision.gif";
 
 import python from 'programming-languages-logos/src/python/python.svg'
 import js from 'programming-languages-logos/src/javascript/javascript.svg'
@@ -31,6 +34,7 @@ export const projects = [
       imgUrl: projImg1,
       moreInfo: "La plataforma permite a los pacientes buscar y conectarse con psicólogos de acuerdo a su especialidad, ubicación y disponibilidad. Los psicólogos pueden gestionar sus citas, horarios, y mantener un registro de las sesiones de sus pacientes. Además, los usuarios (pacientes y psicólogos) pueden interactuar a través de un sistema de mensajería y tener un perfil público y privado para gestionar su información.",
       videoUrl: psicosferagif,
+      githubUrl: "https://github.com/1carloso1/Psicosfera-platform",
       technologies: [
         { name: "Python", logoUrl: python },
         { name: "Django", logoUrl: django },
@@ -46,6 +50,8 @@ export const projects = [
       description: "A computer vision system for calculating the Elastic Modulus of concrete cylinders through video analysis.",
       imgUrl: projImg2,
       moreInfo: "This project aims to develop a system based on computer vision and deep learning techniques to calculate the elastic modulus of concrete cylinders subjected to controlled loading conditions. The system automates the analysis of compression tests, reducing the reliance on expensive specialized equipment and minimizing errors associated with manual calculations.",
+      videoUrl: emocvisiongif,
+      githubUrl: "https://github.com/1carloso1/EMOCVision",
       technologies: [
         { name: "Python", logoUrl: python },
         { name: "OpenCV", logoUrl: opencv },
@@ -58,6 +64,7 @@ export const projects = [
       imgUrl: projImg3,
       moreInfo: "This project contains detailed solutions and procedures for the Bandit and PicoCTF challenges, designed to help you improve your skills in cybersecurity, pentesting, and information security in general.",
       videoUrl: hackinggif,
+      githubUrl: "https://github.com/1carloso1/Hacking-Challenges",
       technologies: [
         { name: "Python", logoUrl: python },
         { name: "Linux", logoUrl: linux },
@@ -66,8 +73,10 @@ export const projects = [
     {
       title: "Facial Recognition System",
       description: "Descripcion 4",
-      imgUrl: projImg1,
-      moreInfo: "detalles del proyecto 4",
+      imgUrl: projImg4,
+      moreInfo: "This project implements a facial recognition system using Deep Neural Networks (DNN) and OpenCV. The system leverages a pretrained model based on the Caffe architecture to detect faces in images, videos, or real-time webcam feeds. It provides a simple and effective solution for facial detection, ideal for security, monitoring, and real-time image analysis applications.",
+      videoUrl: facial_recognitiongif,
+      githubUrl: "https://github.com/1carloso1/dnn-face-recognition",
       technologies: [
         { name: "Python", logoUrl: python },
         { name: "OpenCV", logoUrl: opencv },

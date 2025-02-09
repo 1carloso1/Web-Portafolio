@@ -63,11 +63,12 @@ export const Projects = () => {
               <PopProject project={selectedProject} /> {/* Renderiza el contenido adicional */}
             </Modal.Body>
             <Modal.Footer className="d-flex justify-content-center">
-              <div className='social-icon'>
-                <a href="https://github.com/1carloso1">
-                  <img src={navIcon4} alt="icon" />
-                </a>
-              </div>
+            <div className='social-icon d-flex align-items-center'>
+              <span className="github-text">Ver código en GitHub:</span>
+              <a href={selectedProject.githubUrl} target="_blank" rel="noopener noreferrer" className="ms-2">
+                <img src={navIcon4} alt="GitHub" />
+              </a>
+            </div>
             </Modal.Footer>
           </Modal>
       )}
