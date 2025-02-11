@@ -31,7 +31,7 @@ export const Projects = () => {
               {({ isVisible }) => (
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <h2>Projects</h2>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+                  <p>This section showcases some of my most notable projects, where you can find a detailed description of each one along with links to their respective repositories. Each project reflects my focus on innovation and problem-solving through advanced technologies.</p>
                   <Row>
                     {projects.map((project, index) => (
                       <ProjectCard

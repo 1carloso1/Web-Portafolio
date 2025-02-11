@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^14.6.0",
     "animate.css": "^4.1.1",
     "bootstrap": "^5.3.3",
+    "framer-motion": "^12.4.2",
     "programming-languages-logos": "^0.0.3",
     "react": "^19.0.0",
     "react-bootstrap": "^2.10.7",
@@ -16,6 +17,7 @@
     "react-multi-carousel": "^2.8.5",
     "react-on-screen": "^2.1.1",
     "react-scripts": "5.0.1",
+    "react-scroll": "^1.9.2",
     "web-vitals": "^4.2.4"
   },
   "scripts": {
